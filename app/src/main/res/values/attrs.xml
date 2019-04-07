@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CardView">
+        <attr name="valueText" format="string"/>
+        <attr name="colorText" format="string"/>
+        <attr name="isTurn" format="string"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+    <TextView
+        android:id="@+id/gameName"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="MEMORY"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonScore"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Score"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonNewGame"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="New Game"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonHardcore"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="HardCore Mode"
+        android:textSize="24sp" />
+</LinearLayout>
