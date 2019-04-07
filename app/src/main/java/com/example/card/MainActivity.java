@@ -17,10 +17,6 @@ public class MainActivity extends AppCompatActivity {
         return difficulty;
     }
 
-    public static String isHardcore() {
-        return isHardcore;
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

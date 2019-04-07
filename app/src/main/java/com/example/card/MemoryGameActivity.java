@@ -25,14 +25,6 @@ public class MemoryGameActivity extends AppCompatActivity implements View.OnClic
     Chronometer chronometer;
     TextView scoreView;
 
-    public static Deck getDeck() {
-        return deck;
-    }
-
-    public static void setDeck(Deck deck) {
-        MemoryGameActivity.deck = deck;
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 

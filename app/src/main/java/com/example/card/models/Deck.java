@@ -9,10 +9,6 @@ public class Deck {
     private ArrayList<Card> cards;
     private int difficulty;
 
-    public ArrayList<Card> getCards() {
-        return cards;
-    }
-
     public Deck() {
         cards = new ArrayList<Card>();
         String[] colors = {"PIQUE", "TREFLE", "COEUR", "CARREAU"};
